@@ -724,6 +724,7 @@
     .tool {
       /*  width: auto; */
       width: 45%;
+      font-weight: bold;
     }
   
     .language-wrapper p,
