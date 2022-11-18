@@ -318,7 +318,7 @@
   }
   
   #myBtn:hover {
-    background-color: #F8D697; /* Add a dark-grey background on hover */
+    background-color: #F8D697; /* Add a yellow background on hover */
   }
   
   /* -------------------- Base Header Styles -------------------- */
@@ -332,6 +332,11 @@
     margin-bottom: 20px;
     font-weight: bold;
     text-transform: uppercase;
+  }
+
+  header nav ul li a {
+    padding: 10px 10px;
+    border-radius: 30px;
   }
   
   nav #contact-link {
@@ -405,6 +410,14 @@
     background-color: #CAC4D1;
     color: #453E4F;
   }
+
+  nav ul li a:hover,
+    nav #contact-link:hover {
+      background-color: #F8D697;
+      color: #453E4F;
+      padding: 10px 10px;
+      border-radius: 30px;
+    }
   
   #skills {
     background-color: #E8EFF7;
@@ -952,14 +965,6 @@
   
     nav ul li a {
       padding: 10px 10px;
-    }
-  
-    nav ul li a:hover,
-    nav #contact-link:hover {
-      background-color: #F8D697;
-      color: #453E4F;
-      padding: 10px 10px;
-      border-radius: 30px;
     }
   
     .home-title {
