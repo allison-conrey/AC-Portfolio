@@ -152,6 +152,9 @@
   .contact-title {
     font-weight: 400;
   }
+  .about-info h4 {
+    text-align: center;
+  }
   
   h3,
   h4,
@@ -411,7 +414,7 @@
   }
 
   nav ul li a:hover,
-    nav #contact-link:hover {
+    nav #contact-link:hover, #resume:hover {
       background-color: #F8D697;
       color: #453E4F;
       padding: 10px 10px;
@@ -451,6 +454,12 @@
   #about h4,
   #about p {
     color: #4a4f3e;
+  }
+
+  #resume {
+    background-color: #E9B14C;
+    padding: 10px 10px;
+    border-radius: 30px;
   }
   
   /* -------------------- Base Header Styles -------------------- */
@@ -781,10 +790,6 @@
       width: 60%;
     }
   
-    .about-info h4 {
-      text-align: left;
-    }
-  
     /* Footer */
     .contact-wrapper {
       display: flex;
@@ -864,6 +869,7 @@
   
     .about-info h4 {
       font-size: 2rem;
+      text-align: left;
     }
   
     p {
